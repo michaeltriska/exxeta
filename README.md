@@ -16,17 +16,17 @@ The Backend first calculated the defined general,
 time and user features of a given dataset of surfing
 behavior of users.
 
-general features:
+**general features**:
 The main features are a female and a male website
 score based on tf-idf features from surf behavior
 from registered users.
 
-time features:
+**time features**:
 This features checks wheter users tend to visit the
 web page on weekend or during which part of the 
 day e.g. in the morning or late at night.
 
-user features:
+**user features**:
 Here we calculate e.g. the avg time of
 how long a user visit an url. 
 
@@ -51,7 +51,7 @@ validation set to evalute the classifier performance
 a TSNE-plot helps to visualize the data set
 for a more intuitive evaluation.
 
-gender predictions live in etc/csv/user_gender_predictions.csv
+gender predictions live in **etc/csv/user_gender_predictions.csv**
 
 
 Building
@@ -68,7 +68,7 @@ To **start** the feature extractor run:
 ::
     make start
 
-Note: before starting the feature extractor
+**Note**: before starting the feature extractor
 add the train.csv and test.csv into the
 folder etc/csv/
 
