@@ -9,6 +9,28 @@ Dependencies
 * Python >= 3.5, virtualenv
 * Make
 
+Project Structure
+------------
+
+**/etc**
+contains csv data
+**/gender_classification**
+- /core
+contains feature preprocessor
+- /features
+contains feature modules
+- /models
+contains feature model
+- /modules
+contains term document calucator
+**gender_dataset.ipynb**
+contains jupyter notebook with classificator and evaluation
+**Makefile**
+builds python virtual env and runs the service.py (see section Building)
+**service.py**
+runs the EventPreprocessor
+
+
 Feature Extraction
 ------------
 
