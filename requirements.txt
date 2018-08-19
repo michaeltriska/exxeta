@@ -1,0 +1,7 @@
+pandas==0.23.0
+numpy==1.13.1
+scipy==0.19.1
+scikit-learn==0.19.0
+matplotlib==2.2.2
+jupyter==1.0.0
+schematics==1.1.1
