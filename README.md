@@ -9,6 +9,31 @@ Dependencies
 * Python >= 3.5, virtualenv
 * Make
 
+Building
+--------
+
+To **build** the project run:
+::
+    make
+
+Start feature extractor
+--------
+
+To **start** the feature extractor run:
+::
+    make start
+
+**Note**: before starting the feature extractor
+add the train.csv and test.csv into the
+folder etc/csv/
+
+Open the jupyter notebook
+--------
+To **start** the jupyter notebook run:
+::
+
+jupyter notebook gender_dataset.ipynb
+
 Feature Extraction
 ------------
 
@@ -53,31 +78,6 @@ for a more intuitive evaluation.
 
 gender predictions live in **etc/csv/user_gender_predictions.csv**
 
-
-Building
---------
-
-To **build** the project run:
-::
-    make
-
-Start feature extractor
---------
-
-To **start** the feature extractor run:
-::
-    make start
-
-**Note**: before starting the feature extractor
-add the train.csv and test.csv into the
-folder etc/csv/
-
-Open the jupyter notebook
---------
-To **start** the jupyter notebook run:
-::
-
-jupyter notebook gender_dataset.ipynb
 
 Testing
 -------
